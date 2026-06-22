@@ -1,0 +1,88 @@
+{
+  "settings": {
+    "name": "Gajendra Jha",
+    "title": "Creative Portfolio",
+    "tagline": "Designer & Visual Storyteller",
+    "about": "I'm a creative professional passionate about crafting meaningful visual experiences. My work spans branding, digital design, and visual storytelling — always with an eye for detail and a love for bold, clean aesthetics.",
+    "email": "hello@example.com",
+    "location": "India",
+    "social": {
+      "instagram": "",
+      "behance": "",
+      "linkedin": "",
+      "twitter": "",
+      "dribbble": ""
+    },
+    "gridColumns": 3,
+    "gridGutter": 24,
+    "showMasthead": true,
+    "accentColor": "#111111"
+  },
+  "projects": [
+    {
+      "id": "1",
+      "slug": "visual-identity",
+      "title": "Visual Identity",
+      "description": "A comprehensive brand identity system exploring minimal typography and bold color contrasts.",
+      "coverImage": "/uploads/sample-1.svg",
+      "category": "Branding",
+      "featured": true,
+      "images": [
+        {
+          "id": "img-1",
+          "src": "/uploads/sample-1.svg",
+          "alt": "Visual identity cover",
+          "caption": "Brand mark exploration"
+        },
+        {
+          "id": "img-2",
+          "src": "/uploads/sample-2.svg",
+          "alt": "Visual identity detail",
+          "caption": "Typography system"
+        }
+      ],
+      "createdAt": "2025-01-15T00:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "slug": "editorial-series",
+      "title": "Editorial Series",
+      "description": "An editorial photography series capturing light, texture, and human form in natural settings.",
+      "coverImage": "/uploads/sample-2.svg",
+      "category": "Photography",
+      "featured": true,
+      "images": [
+        {
+          "id": "img-3",
+          "src": "/uploads/sample-2.svg",
+          "alt": "Editorial photograph"
+        },
+        {
+          "id": "img-4",
+          "src": "/uploads/sample-3.svg",
+          "alt": "Editorial detail"
+        }
+      ],
+      "createdAt": "2025-02-20T00:00:00.000Z"
+    },
+    {
+      "id": "3",
+      "slug": "digital-campaign",
+      "title": "Digital Campaign",
+      "description": "Multi-channel digital campaign with motion graphics and responsive web assets.",
+      "coverImage": "/uploads/sample-3.svg",
+      "category": "Digital",
+      "featured": true,
+      "images": [
+        {
+          "id": "img-5",
+          "src": "/uploads/sample-3.svg",
+          "alt": "Campaign hero"
+        }
+      ],
+      "createdAt": "2025-03-10T00:00:00.000Z"
+    }
+  ],
+  "published": true,
+  "updatedAt": "2025-06-22T00:00:00.000Z"
+}

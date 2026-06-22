@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <rect width="1200" height="900" fill="#e8e4df"/>
+  <rect x="80" y="80" width="400" height="400" fill="#111111"/>
+  <text x="600" y="520" font-family="Georgia, serif" font-size="48" fill="#111111" text-anchor="middle">Visual Identity</text>
+  <text x="600" y="580" font-family="Arial, sans-serif" font-size="20" fill="#666666" text-anchor="middle">Branding Project</text>
+</svg>
