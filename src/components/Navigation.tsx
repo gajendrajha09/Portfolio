@@ -32,18 +32,25 @@ export function Navigation({ settings }: NavigationProps) {
         </Link>
 
         <nav className="flex items-center gap-6 md:gap-10">
-          {navLinks.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className={cn(
-                "text-xs uppercase tracking-[0.2em] transition-opacity hover:opacity-60 md:text-sm",
-                pathname === link.href ? "text-ink" : "text-ink-muted",
-              )}
-            >
-              {link.label}
-            </Link>
-          ))}
+          {navLinks.map((link) => {
+            const isActive =
+              link.href === "/"
+                ? pathname === "/" || pathname.startsWith("/work")
+                : pathname === link.href;
+
+            return (
+              <Link
+                key={link.href}
+                href={link.href}
+                className={cn(
+                  "text-xs uppercase tracking-[0.2em] transition-opacity hover:opacity-60 md:text-sm",
+                  isActive ? "text-ink" : "text-ink-muted",
+                )}
+              >
+                {link.label}
+              </Link>
+            );
+          })}
         </nav>
       </div>
     </header>
